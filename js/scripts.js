@@ -23,11 +23,13 @@ else {
 }
 }
 
-//_________________________________________
+
 
 $(document).ready(function() {
 
 $("form#survey").submit(function(event) {
+
+  $("form#survey").fadeOut();
 
   var q1Selection = $("select#q1").val();
   var q2Selection = $("select#q2").val();
@@ -39,7 +41,7 @@ $("form#survey").submit(function(event) {
 
   result = trackSuggester(q1Selection, q2Selection, q3Selection, q4Selection, q5Selection);
 
-  $("#" + result).fadeIn(800);
+  $("#" + result).delay(400).fadeIn(700);
 
 event.preventDefault();
 

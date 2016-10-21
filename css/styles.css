@@ -21,25 +21,56 @@ div #net {
 body {
   text-align: center;
   color: #00b3b4;
+  font-family: 'Playfair Display', serif;
 }
 
-form {
-  text-align: left;
+.form-control {
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .panel {
   background-color: transparent;
 
 }
+
 p {
   color: #969696;
-  font-size: 15pt;
+  font-size: 14pt;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 h3  {
   font-style: italic;
+  font-size: 18pt;
 }
 
 h1 {
   font-size: 30pt;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  margin: 8%;
+}
+
+#survey {
+  text-align: center;
+  padding: 15%;
+  padding-top: 0%;
+
+}
+
+button {
+  margin: 75px;
+}
+
+.row {
+  padding-top: 20px;
+}
+.row p {
+  margin: 10px;
 }
