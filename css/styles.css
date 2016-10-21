@@ -22,3 +22,16 @@ div #net {
   border: 1px solid black;
   display: none;
 }
+
+body {
+  text-align: center;
+  background-color: #a6c1b9;
+}
+
+form {
+  text-align: left;
+}
+
+.panel {
+  background-color: transparent;
+}
